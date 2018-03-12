@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
         Banner banner = (Banner) findViewById(R.id.banner);
         //设置banner样式
-        banner.setBannerStyle(BannerConfig.CIRCLE_INDICATOR);
+        banner.setBannerStyle(BannerConfig.NOT_INDICATOR);
         //设置图片加载器
         banner.setImageLoader(new GlideImageLoader());
         //设置图片集合
